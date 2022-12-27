@@ -24,8 +24,8 @@ unset($_SESSION['signin-data']);
 <div class="container-fluid">
     <div class="container">
         <div class="row">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-8 my-2">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6 py-5 my-2">
                 <div class="container">                    
                  <nav class="navbar navbar-expand-md navbar-dark bg-dark card-header p-3">
                         <a class="navbar-brand" href="<?= ROOT_URL ?>index.php"><i class="fas fa-home mr-2"></i>Online Cake Order</a>
@@ -63,20 +63,18 @@ unset($_SESSION['signin-data']);
                         <?php endif ?> 
                     <h4 class="text-center bg-light p-3 ">Hello User</h4>
                     <form class="p-4" method="POST" action = "login_logic.php">
-                        <div class="form-group">
-                        <label for="uname">Username_email </label>
+                        <div class="input-group">
                         <input type="text" name="username_email" class="form-control" id="uname" placeholder="Enter user name OR email">
-                        </div>
-                        <div class="form-group">
-                        <label for="password">Password</label>
-                        <input type="password" name="password" class="form-control" id="password" placeholder="Enter user password">
+                        </div><br>
+                        <div class="input-group">   
+                          <input type="password" name="password" class="form-control" id="password" placeholder="Enter user password">
                         </div>
                         <button type="submit" name="submit" class="btn btn-primary">Login</button>
                     </form>
                 </div>
                 </div>
             </div>
-            <div class="col-lg-2"></div>
+            <div class="col-lg-3"></div>
         </div>
     </div>
 </div>
