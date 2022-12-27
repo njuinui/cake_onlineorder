@@ -68,7 +68,7 @@ unset($_SESSION['signin-data']);
                         </div><br>
                         <div class="input-group">   
                           <input type="password" name="password" class="form-control" id="password" placeholder="Enter user password">
-                        </div>
+                        </div><br>
                         <button type="submit" name="submit" class="btn btn-primary">Login</button>
                     </form>
                 </div>
