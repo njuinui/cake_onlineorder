@@ -32,11 +32,11 @@ $photo = $_SESSION['signup-data']['photo'] ?? null;
 <div class="container-fluid register py-3">
     <div class="container b-1 py-2 my-2 align-items-center">              
         <div class="row">
-            <div class="col-lg-2 co-md-12">
+            <div class="col-lg-3 co-md-12">
 
             </div>                 
                   
-            <div class="col-lg-8 col-md-12">
+            <div class="col-lg-6 col-md-12">
               <div class="container">
                     <?php  if (isset($_SESSION[''])) : ?>
 
@@ -71,51 +71,42 @@ $photo = $_SESSION['signup-data']['photo'] ?? null;
                             <?php endif ?> 
                         <h4 class="text-center form-register bg-light p-3">Create an account</h4>                          
                         <form class="row g-3 p-4" action="<?= ROOT_URL ?>register_logic.php" enctype="multipart/form-data" method="POST">
-                        <div class="col-md-6">
-                                <label for="fname" class="form-label">First Name</label>
+                        <div class="input-group">                            
                                 <input type="text" name="firstname" class="form-control" id="fname" placeholder="Enter First Name" value = "<?= $firstname ?>"> 
-                            </div>
-                            <div class="col-md-6">
-                                <label for="lname" class="form-label">Last Name</label>
+                            </div><br>
+                            <div class="input-group">
                                 <input type="text" name="lastname" class="form-control" id="lname" placeholder="Enter Last Name" value = "<?= $lastname ?>">  
-                            </div>
-                            <div class="col-md-6">
-                                <label for="uname" class="form-label">User Name</label>
+                            </div><br>
+                            <div class="input-group">
                                 <input type="text" name ="username" class="form-control" id="uname" placeholder="Enter User Name" value = "<?= $username ?>">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email" class="form-label">Email address</label>
+                            </div><br>
+                            <div class="input-group">
                                 <input type="email" name= "email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" value = "<?= $email ?>">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="password" class="form-label">Password</label>
+                            </div><br>
+                            <div class="input-group">
                                 <input type="password" name="password" class="form-control" id="password" placeholder="Enter Password" value = "<?= $createpassword ?>">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="cpassword">Confirm Password</label>
+                            </div><br>
+                            <div class="input-group">
                                 <input type="password" name="cpassword" class="form-control" id="cpassword" placeholder="Confirm Password" value = "<?= $confirmpassword ?>">
+                            </div><br>
+                            <div class="input-group">
+                                 <input type="text" name="address" class="form-control" id="address" placeholder="Enter User Address" value = "<?= $address?>"> 
+                            </div><br>
+                            <div class="input-group">
+                                 <input type="file" name="photo" class="form-control" id="user_photo" placeholder="Enter UserPhoto" value = "<?= $photo ?>">
+                            </div><br>
+                            <div class="input-group">
+                                 <input type="tell" name="phone" class="form-control" id="phone" name="tell" placeholder="Enter Your phone number" value = "<?= $phone ?>">
                             </div>
-                            <div class="col-md-6">
-                                <label for="addres">Address</label>
-                                <input type="text" name="address" class="form-control" id="address" placeholder="Enter User Address" value = "<?= $address?>"> 
-                            </div>
-                            <div class="col-md-6">
-                                <label for="user_photo">Photo</label>
-                                <input type="file" name="photo" class="form-control" id="user_photo" placeholder="Enter UserPhoto" value = "<?= $photo ?>">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="phone" class="form-label">Phone</label>
-                                <input type="tell" name="phone" class="form-control" id="phone" name="tell" placeholder="Enter Your phone number" value = "<?= $phone ?>">
-                            </div>
-                            <div class="col-lg-8">
-                                <button type="submit" class="btn btn-success mb-3 mt-3" name="submit">Register</button>
+                            <div class="input-group">
+                                <button type="submit" class="btn btn-success my-3 btn-xs" name="submit">Register</button>
                             </div>
                         </form>
 
                    </div> 
                 </div>
             </div>
-            <div class="col-lg-12"></div>
+            <div class="col-lg-3"></div>
         </div>
     </div>
 </div>
