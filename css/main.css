@@ -1,0 +1,626 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL STELLINGS */
+
+body {
+    background-color: #DEE7D8;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAVBAR */
+.navbar-brand {
+    background-color: antiquewhite;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    color: brown;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar-nav {
+    gap: 2rem;
+}
+.navbar-nav .nav-item .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+}
+.navbar-nav .nav-item .nav-link:hover  {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* HERO */
+
+.hero {
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98.9vw;
+    height: 70vh;
+    margin-top: -6rem;
+}
+
+/* ORDER BUTTON  */
+
+.hero button:hover {
+    background-color: #FF76B9;
+    border: 1px solid #FF76B9;
+    color: white;
+}
+
+/* NEWS LETTER  */
+
+.news-letter {
+    background-color: #444;
+}
+
+/* OUR POPULAR CAKE */
+
+.popular {
+    background-color: #DEE7D8;
+}
+.popular i{
+    cursor: pointer;
+}
+
+.main_section img {
+    border-radius: 15px;
+}
+
+.popular-cake  i {
+   font-weight: bold;
+}
+.popular-cake  span {
+    margin-top: 1rem;
+    padding: 0.2rem;
+}
+
+.see_more-btn button {
+    margin-left: 48%;
+    border-radius: 0.5rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: orange;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.see_more-btn button:hover {
+    margin-left: 48%;
+    border-radius: 0.5rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #FF76B9;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* CARD  */
+
+
+.test .card {
+    gap: 0rem;
+    background-color: #CEC0C0;
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.card img {
+    height: fit-content;
+    border-radius: 15px 15px 0 0;
+    border: none;
+   
+}
+.card .card-body {
+    background-color: lightgray;
+    color: #fff;
+    border-radius: 0 0 15px 15px;
+    
+}
+.test .card .card-body {
+   display: flex;
+   flex-direction: row;
+}
+.test .card .card-body a{
+   margin-left: 47%;
+   margin-top: 5%;
+   width: 2rem;
+   height: 2rem;
+   border-radius: 50%;
+}
+.test .card .card-body a i{
+   margin-left: 18%;
+   margin-top: 25%;
+   width: 2rem;
+   height: 2rem;
+   border-radius: 50%;
+}
+.card .card-body .not {
+    text-decoration: line-through;
+    color: #444;
+}
+
+.test {
+    background-color: #DEE7D8;
+    box-shadow: 0 0 0 0.16;
+}
+
+
+/* Testimonial  */
+
+#instructors {
+    background-color: #DEE7D8;
+    border: none;
+}
+#instructors .card {
+   background-color: lightgray;
+    border: none;
+    border-radius: 15px 15px;
+}
+#instructors .card .card-body {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 0px 15px 15px 15px;    
+    color: #000;
+}
+#instructors .card .card-body .h3{
+   background-color: lightgray;
+    padding: 0.2rem 0.8rem;
+    color: #fff;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.img {
+    width:20%;
+    height: fit-content;
+    margin-top: 1.2rem;
+    align-self: center;
+    margin-left: 2rem;
+}
+
+/* FOOTER  */
+footer {
+    background-color: #CEC0C0;
+    color: #000;
+}
+
+footer a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+}
+footer a:hover {
+    margin-left: 1.5rem;
+    text-decoration: none;
+}
+footer i {
+    padding: 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+footer a {
+   color: white;
+    cursor: pointer;
+}
+
+/* ABOUT PAGGE */
+
+.about {
+    background-image: url(../images/11.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no;
+}
+
+.about h2 {
+    padding-top: 15rem;
+}
+.about .bran {
+    color: red;
+}
+.about .colo {
+    color: red;
+    font-weight: bold;
+}
+.about-hero img {
+   border-radius: 2rem;
+   height: fit-content;
+}
+.about-hero button {
+    margin-left: 50%;
+}
+
+.how-it img {
+    width: 40%;
+}
+.how-it .card {
+   border: none;
+}
+
+.how-it .card-body {
+    border-style: none;
+   border: none;
+   border-radius: 15px;
+   background-color: #FF76B9;
+}
+.how-it .card-body {
+    border-radius: 15px;
+   border: none;
+   background-color: #FF76B9;
+}
+
+/* BLOG  */
+.blog-page {
+    background-color: midnightblue;
+}
+
+.blog {
+    padding-top: 10%;
+}
+
+.form-inline button{
+   margin-left: -1rem;
+}
+ .blog-post img {
+    width: 77%;
+    height: 35vh;
+    border-radius: 0 5rem ;
+ }
+ .blog-post {
+   color: #fff;
+ }
+ .blog-post button{
+   border-radius: 0.8rem;
+ }
+ .blog-post .card .card-footer{
+    border-radius: 0;
+    border: none;
+    background-color: #A4C3BB;
+ }
+
+
+ /* CATEGORY */
+ button a {
+    text-decoration: none;
+ }
+ button a:hover {
+    text-decoration: none;
+ }
+  /* ORDER  */
+
+ .order .row a{
+     margin-top: 3rem;
+     background-color: orange;
+     padding: 0.5rem;
+     text-decoration: none;
+     color: #DEE7D8;
+     border-radius: 0.5rem;
+  }
+ .order .row .active{
+     background-color: #FF76B9;
+     border-radius: 0.5rem;
+  }
+
+  .order .card {
+    border: none;
+  }
+
+  .order .card .card-body {
+    display: flex;
+    flex-direction: row;
+ }
+ .order .card .card-body a{
+    margin-left: 49%;
+    margin-top: 5%;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    align-items: center;
+ }
+ .order .card .card-body a i{
+    margin-left: 18%;
+    margin-top: 25%;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+ }
+
+
+
+/* ADMIN INDEX */
+
+
+a img {
+    width: 1.8rem;
+    height: fit-content;
+}
+
+.income {
+    text-align: center;
+    margin-top: -3rem;
+    margin-left: -0.2rem;
+    
+}
+
+.ad_int {
+    margin-top: 1.3rem;
+    
+}
+.ad_int aside {
+    height:100vh;
+    margin-left: -5rem;
+    margin-top: 0.8rem;
+}
+.ad_int aside a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+.ad_int aside .active  {
+   background-color: #fff;
+   color: red;
+   text-align: center;
+   border-radius: 2rem 0 2rem 0; 
+   width:95%;
+}
+.ad_int aside .active i{
+    margin-top: -1rem;
+}
+.ad_int aside .active h6{
+    margin-top: -1rem;
+}
+.ad_int aside a i {
+    padding-right:0.5rem ;
+
+}
+
+
+/* MAIN  */
+.main .welcome {
+    gap: 1.5rem;
+}
+
+.main .box {
+    border-radius: 0.5rem;
+    box-shadow: 1px 0.5 0.5 rgba(0, 0, 0, 0.6);
+}
+
+.boxes {
+    background-color: #E8E7E7;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.user-order {
+    gap: 0.8rem;
+}
+.user-order img {
+    width: 2.8rem;
+    height: fit-content;
+}
+
+
+/* Admin order */
+
+table img {
+    width: 2.5rem;
+}
+
+.sidebar__toggle {
+    display: none;
+}
+.sidebar__toggle {
+    display: none;
+}
+
+/* user_login */
+
+
+
+/* MEDIA QUERY  */
+
+/* MEDIA QUERY FOR MEDUIM DEVICES */
+@media screen and (max-width:1024px) {
+
+    .see_more-btn button {
+        margin-left: 38%;
+    }
+    .see_more-btn button:hover {
+        margin-left: 38%;
+    }
+
+    .hero h1 {
+        padding-top:15rem;
+    }
+
+    /* ADD TO CARD  */
+    .test .card .card-body a{
+        margin-left: 10%;
+        margin-top: 15%;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+     }
+     .test .card .card-body a i{
+        margin-left: 18%;
+        margin-top: 25%;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+     }
+
+    /* taste and testify  */
+    .test .card .card-body a{
+        margin-left: 75%;
+    }
+
+    .img {
+        width:20%;
+        height: fit-content;
+        margin-top: 1.2rem;
+        align-self: center;
+        margin-left: 2rem;
+    }
+
+    /* BLOG  */
+    .blog {
+        padding-top: 15%;
+    }
+    
+    .blog-post img {
+        width: 100%;
+        height: 30vh;
+        border-radius: 0 5rem ;
+     }
+
+     /* ORDER  */
+
+    /* taste and orderify  */
+    .order .card .card-body a{
+        margin-left: 75%;
+    }
+
+    /* CAROUSEL */
+
+    .carousel-item .card {
+        margin-right: 1rem;
+    }
+
+    /* INDEX ADMIN  */
+
+    .boxeser .box{
+        margin-top: 1rem;
+    }
+
+    .about-hero img {
+        width: 100%;
+        height: fit-content;
+    }
+
+    /* ADMIN INDEX  */
+
+    .asside {
+        height: 100vh;
+    }
+
+    .boxes .approve {
+        height: 1rem;
+    }
+
+    .dashboard__container {
+        grid-template-columns: 4.3rem auto;
+        padding: 0;
+        background: transparent;
+     }
+  
+     .ad_int aside h6 {
+        display: none;
+     }
+}
+
+
+
+/* MEDIA QUERY FO SMALL DEVICES */
+
+@media screen and (max-width:600px)  {
+
+
+    /* ABOUT  */
+
+    
+
+     /* ADD TO CARD  */
+     .test .card .card-body a{
+        margin-left: 10%;
+        margin-top: 15%;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+     }
+     .test .card .card-body a i{
+        margin-left: 18%;
+        margin-top: 25%;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+     }
+    /* taste and testify  */
+    .test .card .card-body a{
+        margin-left: 55%;
+    }
+
+    .img {
+        width:20%;
+        height: fit-content;
+        margin-top: 1.2rem;
+        align-self: center;
+        margin-left: 2rem;
+    }
+
+    /* BLOG  */
+
+    .form-inline input{
+        width: 78%;
+     }
+    .form-inline button{
+        margin-left: -1rem;
+     }
+    .blog {
+        padding-top: 25%;
+    }
+    
+    .blog-post .container {
+       margin-left: 1rem;
+     }
+    .blog-post img {
+        width: 80%;
+        height: 35vh;
+        border-radius: 0 5rem ;
+     }
+
+     /* CATEGORY  */
+
+     .category button {
+        margin-bottom: 1rem;
+     }
+
+     /* Modal  */
+    .fade button {
+       margin-top: 0.8rem;
+       width: 100%;
+    }
+
+    /* CAROUSEL */
+
+    .carousel-item .card {
+        margin-bottom: 1rem;
+    }
+
+    /* admin  */
+
+    .asside {
+        display: none;
+    }
+
+    .boxes {
+        background-color: #E8E7E7;
+        border-radius: 10px;
+        height: 100%;
+    }
+
+    /* Form registration */
+    .form-register {
+        font-size: 2rem;
+        height: 100%;
+    }
+
+}
