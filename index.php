@@ -57,7 +57,7 @@
               Create an count in other to place your order
             </p>
              <!-- Button trigger modal -->
-             <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+             <button type="button" class="btn btn-warning align-items-center my-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
                      Order Now
             </button>
           </div>
